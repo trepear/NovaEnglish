@@ -30704,17 +30704,17 @@ a.u-link.u-text-hover-grey-90:hover {
 /*end-variables sitestylecss*/
  .u-header {background-image: none}
 .u-header .u-sheet-1 {min-height: 60px}
-.u-header .u-menu-1 {width: 768px; height: 45px; margin: 15px auto 0}
+.u-header .u-menu-1 {margin: 15px auto 0}
 .u-header .u-nav-1 {font-size: 1.125rem; letter-spacing: 0; text-transform: uppercase; font-family: "Playfair Display"; font-weight: normal}
 .u-header .u-nav-2 {font-size: 1.25rem} 
-
+@media (max-width: 1199px){ .u-header .u-menu-1 {width: 768px; height: 45px} }
 @media (max-width: 991px){ .u-header .u-menu-1 {width: 559px; height: 36px} }
 @media (max-width: 767px){ .u-header .u-menu-1 {margin-top: 15px; width: 540px} }
 @media (max-width: 575px){ .u-header .u-menu-1 {width: 340px} }
  .u-footer {background-image: none}
 .u-footer .u-sheet-1 {min-height: 52px}
 .u-footer .u-text-1 {background-image: none; text-shadow: 2px -2px 8px rgba(128,128,128,1); margin: 14px 828px 14px 1px}
-.u-footer .u-btn-1 {letter-spacing: 1px; font-family: "Playfair Display", serif; padding: 0} 
+.u-footer .u-btn-1 {font-family: "Playfair Display", serif; border-style: none none solid; letter-spacing: normal; padding: 0} 
 @media (max-width: 1199px){ .u-footer .u-sheet-1 {min-height: 75px}
 .u-footer .u-text-1 {width: auto; margin: 25px 509px 25px 0} }
 @media (max-width: 991px){ .u-footer .u-sheet-1 {min-height: 76px}
