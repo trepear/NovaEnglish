@@ -1,0 +1,25 @@
+{
+  "name": "novaenglish",
+  "version": "1.0.0",
+  "description": "https://trepear.github.io/NovaEnglish/",
+  "main": "contact.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trepear/NovaEnglish.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trepear/NovaEnglish/issues"
+  },
+  "homepage": "https://github.com/trepear/NovaEnglish#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7",
+    "serve": "^11.3.2"
+  }
+}
