@@ -12,7 +12,8 @@
 .u-section-1 .u-container-layout-2 {padding: 10px 50px 30px}
 .u-section-1 .u-form-1 {margin: 0}
 .u-section-1 .u-layout-cell-3 {min-height: 526px}
-.u-section-1 .u-container-layout-3 {padding: 30px} 
+.u-section-1 .u-container-layout-3 {padding: 30px}
+.u-section-1 .u-map-1 {animation-duration: 1000ms} 
 
 @media (max-width: 1199px){ .u-section-1 .u-sheet-1 {min-height: 561px}
 .u-section-1 .u-layout-wrap-1 {margin-right: initial; margin-left: initial}
