@@ -4,7 +4,12 @@
   "description": "https://trepear.github.io/NovaEnglish/",
   "main": "contact.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "react-scripts start",
+    "start": "serve -s build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -17,6 +22,7 @@
   },
   "homepage": "https://github.com/trepear/NovaEnglish#readme",
   "dependencies": {
+    "env": "0.0.2",
     "express": "^4.17.1",
     "fs": "0.0.1-security",
     "morgan": "^1.10.0",
