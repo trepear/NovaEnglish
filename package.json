@@ -2,8 +2,11 @@
   "name": "novaenglish",
   "version": "1.0.0",
   "description": "https://trepear.github.io/NovaEnglish/",
-  "main": "contact.js",
-
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/trepear/NovaEnglish.git"
@@ -23,6 +26,7 @@
     "mysql2": "^2.2.5",
     "path": "^0.12.7",
     "sequelize": "^6.3.5",
-    "serve": "^11.3.2"
+    "serve": "^11.3.2",
+    "util": "^0.12.3"
   }
 }
