@@ -12,7 +12,7 @@ module.exports = function(sequelize, DataTypes) {
         }
       },
       body: {
-        type: DataTypes.STRING,
+        type: DataTypes.STRING(500),
         allowNull: false
       },
     })
