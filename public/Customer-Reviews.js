@@ -12,7 +12,7 @@ const getComments = () => {
             let body = comment[i].body;
             let id = comment[i].id;
          
-            var commentContainer = $("<div>").attr("class", "u-container-style u-list-item u-repeater-item u-list-item-2");
+            var commentContainer = $("<div>").attr("class", "u-container-style u-list-item u-repeater-item u-list-item");
             var containerLayout = $("<div>").attr("class", "u-container-layout u-similar-container u-valign-top u-container-layout-2");
             var commentImg = $("<div>").attr({"class":"u-align-left u-image u-image-circle u-image-1", "data-image-width":"1280", "data-image-height":"1280"});
             var anotherDiv = $("<div>").attr("class", "u-container-style u-expanded-width-xs u-group u-group-2");
