@@ -34,7 +34,7 @@ app.use(apiRoutes)
 app.use(htmlRoutes)
 // require("./routes/html_routes.js")(app);
 app.get("*", function (req, res) {
-    res.sendFile(path.join(__dirname, "./public/english/home.html"));
+    res.sendFile(path.join(__dirname, "./public/english/Home.html"));
 });
 
 // Syncing our sequelize models and then starting our Express app
