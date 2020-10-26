@@ -26,6 +26,7 @@ app.use(logger("dev"))
 // Static directory
 app.use(express.static("public"));
 
+
 // Routes
 // =============================================================
 app.use(apiRoutes)
