@@ -7,29 +7,55 @@
 var path = require("path");
 const router = require('express').Router();
 
-router.route('/about')
+router.route('/english_about')
     .get((req, res) => {
-        res.sendFile(path.join(__dirname, "../public/About.html"))
+        res.sendFile(path.join(__dirname, "../public/english/About.html"))
     });
-router.route('/camp')
+router.route('/english_camp')
     .get((req,res) => {
-        res.sendFile(path.join(__dirname, "../public/Camp.html"));
+        res.sendFile(path.join(__dirname, "../public/english/Camp.html"));
     });
-router.route('/career')
+router.route('/english_career')
     .get((req,res) => {
-        res.sendFile(path.join(__dirname, "../public/Career.html"));
+        res.sendFile(path.join(__dirname, "../public/english/Career.html"));
     });
-router.route('/contact')
+router.route('/english_contact')
     .get((req,res) => {
-        res.sendFile(path.join(__dirname, "../public/Contact.html"));
+        res.sendFile(path.join(__dirname, "../public/english/Contact.html"));
     });
-router.route('/customer-reviews')
+router.route('/english_customer-reviews')
     .get((req,res) => {
-        res.sendFile(path.join(__dirname, "../public/Customer-Reviews.html"));
+        res.sendFile(path.join(__dirname, "../public/english/Customer-Reviews.html"));
     });
-router.route('/our-services')
+router.route('/english_our-services')
     .get((req,res) => {
-        res.sendFile(path.join(__dirname, "../public/Our-Services.html"));
+        res.sendFile(path.join(__dirname, "../public/english/Our-Services.html"));
+    });
+
+// CZECH ROUTES
+router.route('/czech_about')
+    .get((req, res) => {
+        res.sendFile(path.join(__dirname, "../public/czech/About.html"))
+    });
+router.route('/czech_camp')
+    .get((req,res) => {
+        res.sendFile(path.join(__dirname, "../public/czech/Camp.html"));
+    });
+router.route('/czech_career')
+    .get((req,res) => {
+        res.sendFile(path.join(__dirname, "../public/czech/Career.html"));
+    });
+router.route('/czech_contact')
+    .get((req,res) => {
+        res.sendFile(path.join(__dirname, "../public/czech/Contact.html"));
+    });
+router.route('/czech_customer-reviews')
+    .get((req,res) => {
+        res.sendFile(path.join(__dirname, "../public/czech/Customer-Reviews.html"));
+    });
+router.route('/czech_our-services')
+    .get((req,res) => {
+        res.sendFile(path.join(__dirname, "../public/czech/Our-Services.html"));
     });
 
 module.exports = router
