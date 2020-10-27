@@ -7,8 +7,12 @@
 var express = require("express");
 const logger = require('morgan');
 const path = require('path');
-const apiRoutes = require('./routes/api-routes');
-const htmlRoutes = require('./routes/html-routes');
+const apiRoutes = require('./public/routes/api-routes');
+// const htmlRoutes = require('./routes/html-routes');
+const htmlRoutes = require("./public/routes/html-routes");
+
+
+
 
 // Sets up the Express App
 // =============================================================
@@ -21,11 +25,11 @@ var db = require("./models");
 // Sets up the Express app to handle data parsing
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(logger("dev"))
+app.use(logger("dev"));
 
 // Static directory
-app.use(express.static("public"));
-
+// app.use(express.static("/public"));
+app.use('/public', express.static(__dirname + '/public'));
 
 // Routes
 // =============================================================
@@ -34,7 +38,7 @@ app.use(apiRoutes)
 app.use(htmlRoutes)
 // require("./routes/html_routes.js")(app);
 app.get("*", function (req, res) {
-    res.sendFile(path.join(__dirname, "./public/english/Home.html"));
+    res.sendFile(path.join(__dirname, "public/english/Home.html"));
 });
 
 // Syncing our sequelize models and then starting our Express app

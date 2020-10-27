@@ -7,6 +7,11 @@
 var path = require("path");
 const router = require('express').Router();
 
+
+router.route('/english_index')
+    .get((req, res) => {
+        res.sendFile(path.join(__dirname, "../public/english/index.html"))
+    });
 router.route('/english_about')
     .get((req, res) => {
         res.sendFile(path.join(__dirname, "../public/english/About.html"))
@@ -33,6 +38,11 @@ router.route('/english_our-services')
     });
 
 // CZECH ROUTES
+
+router.route('/czech_index')
+    .get((req, res) => {
+        res.sendFile(path.join(__dirname, "../public/czech/index.html"))
+    });
 router.route('/czech_about')
     .get((req, res) => {
         res.sendFile(path.join(__dirname, "../public/czech/About.html"))

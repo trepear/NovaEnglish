@@ -5,7 +5,7 @@
 // =============================================================
 const router = require('express').Router()
 // Requiring our models                                                                                                                                                 
-var db = require("../models");
+var db = require("../../models");
 
 
 // GET route for retreiving all comments
