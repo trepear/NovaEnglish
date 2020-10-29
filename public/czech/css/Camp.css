@@ -48,9 +48,8 @@
 .u-section-1 .u-line-2 {margin-left: 200px} }
 
 @media (max-width: 575px){ .u-section-1 .u-text-1 {font-size: 3rem}
-.u-section-1 .u-layout-cell-1 {min-height: 100px}
-.u-section-1 .u-line-1 {margin-top: 7px; margin-left: 74px}
-.u-section-1 .u-text-4 {margin-top: 7px}
+.u-section-1 .u-layout-cell-1 {min-height: 250px}
+.u-section-1 .u-line-1 {margin-left: 39px}
 .u-section-1 .u-text-5 {margin-left: 0; margin-right: 0}
 .u-section-1 .u-line-2 {margin-right: 120px; margin-left: auto}
 .u-section-1 .u-text-6 {margin-left: 0; margin-right: 0} }.u-section-2 {background-image: none; min-height: 657px}
