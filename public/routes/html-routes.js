@@ -36,6 +36,10 @@ router.route('/english_our-services')
     .get((req,res) => {
         res.sendFile(path.join(__dirname, "../public/english/Our-Services.html"));
     });
+router.route('/english_pdfs')
+    .get((req,res) => {
+        res.sendFile(path.join(__dirname, "../public/english/pdf.html"));
+    });
 
 // CZECH ROUTES
 
