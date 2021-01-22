@@ -1,20 +1,19 @@
 {
     "development": {
-      "username": "cm7bohsqybra9nch",
-      "password": "k709hlwrjbg0qgu5",
-      "database": "jkkc1elxakmllfwd",
-      "host": "vrk7xcrab1wsx4r1.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+      "username": "root",
+      "password": "Ethangirard96",
+      "database": "comments_db",
+      "host": "127.0.0.1",
       "dialect": "mysql"
     },
     "test": {
       "username": "root",
-      "password": null,
+      "password": "Ethangirard96",
       "database": "database_test",
       "host": "127.0.0.1",
       "dialect": "mysql"
     },
     "production": {
-      "use_env_variable": "JAWSDB_URL",
       "dialect": "mysql"
     }
   }
