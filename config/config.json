@@ -1,14 +1,14 @@
 {
   "development": {
     "username": "root",
-    "password": "",
+    "password": "Ethangirard96",
     "database": "comments_db",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "test": {
     "username": "root",
-    "password": null,
+    "password": "Ethangirard96",
     "database": "database_test",
     "host": "127.0.0.1",
     "dialect": "mysql"
