@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "root",
-    "password": "Ethangirard96",
-    "database": "comments_db",
-    "host": "127.0.0.1",
+    "username": "gleq5mk6e774zf5c",
+    "password": "wudtkbwdfus3kyri",
+    "database": "p9i0u7hw56t6foh6",
+    "host": "z5zm8hebixwywy9d.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "mysql"
   },
   "test": {
