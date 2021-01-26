@@ -24,6 +24,9 @@
 .u-section-1 .u-layout-cell-2 {min-height: 233px; animation-duration: 1000ms}
 .u-section-1 .u-line-2 {margin-left: 102px}
 .u-section-1 .u-btn-1 {margin-top: 131px; margin-bottom: 27px} }
+#google-docs {
+    display: none;
+}
 
 
 @media (max-width: 991px){ .u-section-1 .u-sheet-1 {min-height: 859px}
@@ -37,6 +40,9 @@
 .u-section-1 .u-line-2 {margin-left: 51px}
 .u-section-1 .u-text-6 {width: auto; margin-right: -15px; margin-left: 14px}
 .u-section-1 .u-btn-1 {margin-top: 99px; margin-bottom: 15px} }
+#google-docs {
+    display: none;
+}
 
 
 @media (max-width: 767px){ .u-section-1 .u-sheet-1 {min-height: 746px}
@@ -49,6 +55,9 @@
 .u-section-1 .u-container-layout-2 {padding-left: 10px; padding-right: 10px}
 .u-section-1 .u-text-5 {width: auto}
 .u-section-1 .u-line-2 {margin-left: 200px} }
+#google-docs {
+    display: none;
+}
 
 @media (max-width: 575px){ .u-section-1 .u-text-1 {font-size: 3rem}
 .u-section-1 .u-layout-cell-1 {min-height: 258px}
@@ -271,20 +280,25 @@
 /* For PDFs */
 
 @media (max-width: 992px) {
-    #doc-one, #doc-two, #doc-three, #doc-four {
-        max-width: 650px;
+    #docs {
+        display: none;
     }
-    #lang {
-        float: right;
+    #google-docs {
+        display: block;
+    }
+    #view {
+        display: none;
     }
 }
 
 @media (max-width: 600px) {
-    #doc-one, #doc-two, #doc-three, #doc-four {
-        max-width: 350px;
+    #docs {
+        display: none;
     }
-    #lang {
-        float: right;
-    
+    #google-docs {
+        display: block;
+    }
+    #view {
+        display: none;
     }
 }
